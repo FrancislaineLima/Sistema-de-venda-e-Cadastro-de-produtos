@@ -33,6 +33,7 @@ if botao_cadastrar :
  nova_venda= [str(data), vendedor, produto, quantidade, valor]
  ultima_linha= len(tabela_vendas)
  tabela_vendas.loc[ultima_linha] = nova_venda
+ tabela_vendas.to_csv("vendas.csv", index=False)
  st.success(" Venda Cadastrada!") #uma mensagem para mostrar que funcionou.
 
 st.write("## Vendas Cadastradas")
