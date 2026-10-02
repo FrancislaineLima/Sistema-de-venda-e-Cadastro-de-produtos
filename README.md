@@ -1,5 +1,5 @@
 # Sistema-de-venda-e-Cadastro-de-produtos
-# 🌸 Sistema de Vendas & Dashboard Interativo
+# 🌸 Sistema de Vendas
 https://sistemadevendafsystem.streamlit.app/
 
 Este é um projeto de um Sistema de Vendas construído com Python e Streamlit. O aplicativo permite o cadastro rápido de vendas diárias e gera um dashboard interativo e estilizado para análise de faturamento.
